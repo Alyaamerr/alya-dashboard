@@ -25,7 +25,7 @@
   
       // logout redirect
       if (!$session && $page.url.pathname === "/") {
-        goto("/login");
+        goto("/login"); 
       }
     }
   </script>
